@@ -9,7 +9,7 @@
 
 ### 2. **MongoDB Configuration** ✅
 - **Old**: `mongodb://localhost:27017/memorae` (Local MongoDB)
-- **New**: `mongodb+srv://ARC-RESUME:69O52bQXpzSHroMS@clusterarc.kxpp16z.mongodb.net/memorae` (MongoDB Atlas)
+)
 - **Status**: ✅ Connected successfully
 
 ### 3. **Fixed TypeScript Errors** ✅
@@ -80,7 +80,7 @@ PORT=5001
 NODE_ENV=development
 
 # Database Configuration
-MONGODB_URI=mongodb+srv://ARC-RESUME:69O52bQXpzSHroMS@clusterarc.kxpp16z.mongodb.net/memorae
+MONGODB_URI=
 REDIS_HOST=localhost
 REDIS_PORT=6379
 
@@ -91,7 +91,7 @@ JWT_EXPIRES_IN=7d
 JWT_REFRESH_EXPIRES_IN=30d
 
 # Google Gemini Configuration
-GEMINI_API_KEY=AIzaSyDV9wuFjnFbFEi6f3NuKH7l7cw8Vvo7z9A
+
 
 # Email Configuration (Gmail SMTP)
 SMTP_HOST=smtp.gmail.com

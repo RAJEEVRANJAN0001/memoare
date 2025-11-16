@@ -163,23 +163,6 @@ const HeroFuturistic = () => {
               />
               
               {/* Content */}
-              <motion.div
-                animate={{
-                  rotate: [0, 360]
-                }}
-                transition={{
-                  duration: 3,
-                  repeat: Infinity,
-                  ease: 'linear'
-                }}
-                className="relative"
-              >
-                <Sparkles className="w-5 h-5 text-cyan-400" />
-              </motion.div>
-              <span className="relative text-sm font-semibold bg-gradient-to-r from-white to-white/80 text-transparent bg-clip-text">
-                Powered by Advanced AI Technology
-              </span>
-              <div className="relative w-2 h-2 rounded-full bg-green-400 animate-pulse" />
             </motion.div>
           </motion.div>
 

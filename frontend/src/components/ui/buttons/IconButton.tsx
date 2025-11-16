@@ -1,10 +1,9 @@
 'use client'
 
-import { motion } from 'framer-motion'
+import { motion, HTMLMotionProps } from 'framer-motion'
 import { LucideIcon } from 'lucide-react'
-import { ButtonHTMLAttributes } from 'react'
 
-interface IconButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
+interface IconButtonProps extends Omit<HTMLMotionProps<'button'>, 'children'> {
   icon: LucideIcon
   variant?: 'primary' | 'secondary' | 'ghost'
   size?: 'sm' | 'md' | 'lg'

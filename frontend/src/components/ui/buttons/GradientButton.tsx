@@ -1,9 +1,9 @@
 'use client'
 
-import { motion } from 'framer-motion'
-import { ButtonHTMLAttributes, ReactNode } from 'react'
+import { motion, HTMLMotionProps } from 'framer-motion'
+import { ReactNode } from 'react'
 
-interface GradientButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
+interface GradientButtonProps extends Omit<HTMLMotionProps<'button'>, 'children'> {
   children: ReactNode
   gradient?: string
   animated?: boolean

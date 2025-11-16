@@ -1,13 +1,13 @@
 'use client'
 
-import { motion } from 'framer-motion'
+import { motion, HTMLMotionProps } from 'framer-motion'
 import { Loader2 } from 'lucide-react'
-import { ButtonHTMLAttributes, ReactNode } from 'react'
+import { ReactNode } from 'react'
 
 type ButtonVariant = 'primary' | 'secondary' | 'ghost' | 'gradient' | 'outline'
 type ButtonSize = 'sm' | 'md' | 'lg'
 
-interface ButtonProps extends ButtonHTMLAttributes<HTMLButtonElement> {
+interface ButtonProps extends Omit<HTMLMotionProps<'button'>, 'children'> {
   variant?: ButtonVariant
   size?: ButtonSize
   isLoading?: boolean

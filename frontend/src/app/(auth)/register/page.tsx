@@ -26,7 +26,8 @@ export default function RegisterPage() {
       await register({
         name: formData.name,
         email: formData.email,
-        password: formData.password
+        password: formData.password,
+        confirmPassword: formData.confirmPassword
       })
     } catch (error) {
       // Error is handled in AuthProvider

@@ -310,7 +310,7 @@ const InteractiveDemo = () => {
             className="group relative px-10 py-5 bg-gradient-to-r from-green-600 to-emerald-600 text-white rounded-2xl font-bold text-lg shadow-2xl overflow-hidden"
           >
             <span className="relative z-10 flex items-center gap-2">
-              Try It Now - It's Free
+              Try It Now - It&apos;s Free
               <motion.span animate={{ x: [0, 5, 0] }} transition={{ duration: 1.5, repeat: Infinity }}>
                 →
               </motion.span>

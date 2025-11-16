@@ -1,0 +1,18 @@
+2025-11-16 13:06:05 [info]: MongoDB connected successfully
+2025-11-16 13:06:05 [info]: Redis connected successfully
+2025-11-16 13:06:05 [info]: Reminder job started
+2025-11-16 13:06:05 [info]: 🚀 Server running on port 5001
+2025-11-16 13:06:05 [info]: 📝 Environment: development
+2025-11-16 13:06:05 [info]: 🔗 Health check: http://localhost:5001/health
+2025-11-16 13:06:05 [info]: 🔗 API base: http://localhost:5001/api
+2025-11-16 13:38:06 [info]: MongoDB connected successfully
+2025-11-16 13:38:06 [info]: Redis connected successfully
+2025-11-16 13:43:44 [info]: MongoDB connected successfully
+2025-11-16 13:43:45 [info]: Redis connected successfully
+2025-11-16 13:43:45 [info]: Reminder job started
+2025-11-16 13:43:45 [info]: 🚀 Server running on port 5001
+2025-11-16 13:43:45 [info]: 📝 Environment: development
+2025-11-16 13:43:45 [info]: 🔗 Health check: http://localhost:5001/health
+2025-11-16 13:43:45 [info]: 🔗 API base: http://localhost:5001/api
+2025-11-16 13:44:45 [info]: Processing 0 due reminders
+2025-11-16 13:45:32 [info]: Received shutdown signal, closing server gracefully...

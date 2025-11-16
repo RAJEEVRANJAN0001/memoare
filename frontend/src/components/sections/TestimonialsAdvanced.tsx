@@ -302,7 +302,7 @@ const TestimonialCard = ({
 
         {/* Text */}
         <p className="text-gray-700 leading-relaxed mb-6 relative z-10">
-          "{testimonial.text}"
+          &ldquo;{testimonial.text}&rdquo;
         </p>
 
         {/* Author */}

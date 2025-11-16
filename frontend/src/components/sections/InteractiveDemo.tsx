@@ -103,7 +103,7 @@ const InteractiveDemo = () => {
           </h2>
           
           <p className="text-xl text-gray-600 max-w-3xl mx-auto">
-            No apps to download, no complicated setup. Just WhatsApp and you're ready to go.
+            No apps to download, no complicated setup. Just WhatsApp and you&apos;re ready to go.
           </p>
         </motion.div>
 

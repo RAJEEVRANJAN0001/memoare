@@ -27,7 +27,7 @@ export default function ForgotPasswordPage() {
             <>
               <h1 className="text-3xl font-bold text-white mb-2">Reset Password</h1>
               <p className="text-gray-400 mb-8">
-                Enter your email and we'll send you a reset link
+                Enter your email and we&apos;ll send you a reset link
               </p>
 
               <form onSubmit={handleSubmit} className="space-y-6">
@@ -74,7 +74,7 @@ export default function ForgotPasswordPage() {
               </div>
               <h1 className="text-2xl font-bold text-white mb-2">Check Your Email</h1>
               <p className="text-gray-400 mb-8">
-                We've sent a password reset link to <strong className="text-white">{email}</strong>
+                We&apos;ve sent a password reset link to <strong className="text-white">{email}</strong>
               </p>
               <a
                 href="/login"
